@@ -1,0 +1,30 @@
+$primary-color: #78D7DD;
+$primary-color-transp: rgba(120, 215, 221, 0.8);
+$secondary-color: #F06301;
+$secondary_color_transp: rgba(255, 254, 254, 0.9);
+$color_fuente_1: black;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #F06301;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 60px 600px auto 500px);
+    grid-template-areas:
+        "header header header header header header header header header header header header"
+        "banner banner banner banner banner banner banner banner banner banner banner banner"
+        "about_we about_we about_we about_we about_we about_we about_we about_we about_we about_we about_we about_we"
+        "our_work our_work our_work our_work our_work our_work our_work our_work our_work our_work our_work our_work"
+        // "footer footer footer footer footer footer footer footer footer footer footer footer"
+}

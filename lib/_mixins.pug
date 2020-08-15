@@ -1,0 +1,8 @@
+mixin card-our-work(img, img_alt, title, description, number)
+    .our-work-card
+        .our-work-foto
+            img(src=img, alt=img_alt)
+        .our-work-description
+            h2= title
+            p= description
+            p.numero= number

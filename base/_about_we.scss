@@ -1,0 +1,30 @@
+.about_we {
+  grid-area: about_we;
+  height: 968px;
+  background-color: rgb(187, 228, 104);
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+  .about_we-foto {
+    background-color: $primary-color;
+    width: 23rem;
+    height: 20rem;
+    padding: 1px;
+  }
+}
+
+.about-me-container {
+  display: flex;
+  margin: 0;
+
+  h2 {
+    text-align: center;
+  }
+
+  .about_we-description {
+    padding: 20px;
+  }
+
+
+}
